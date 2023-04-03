@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* body {
+  min-height: 10000px;
+} */
+
+.navbar {
+  background-color: rgba(1, 1, 1, 0.7);
+  border-bottom: 1px solid #ffc107;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav {
+  font-family: 'Alkatra', cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.myBG {
+  height: 100vh;
+  background: url('assets/images/bg/bg.jpg');
+  background-size: cover;
+  background-position: 25px;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 800;
+  text-shadow: 2px 2px 1px black;
+  letter-spacing: 4px;
+}
+
+.SistemInformasi {
+  height: auto;
+  background: url('assets/images/bg/computer.jpg');
+  background-size: cover;
+}
+
+.hr {
+  margin: 15px auto 35px;
+  width: 200px;
+  border-top-width: 3px;
+  border-color: white;
+  opacity: 1;
+  box-shadow: 1px 1px 10px black;
+}
+
+.si,
+.akuntansi,
+.contact {
+  text-shadow: 2px 2px 1px black;
+}
+
+.movieImages {
+  width: 100%;
+}
+
+.Akuntansi {
+  height: auto;
+  background: url('assets/images/bg/calculator.jpg');
+  background-size: cover;
+}
+
+.Contact {
+  height: auto;
+  background: url('assets/images/bg/contact.jpg');
+  background-size: cover;
+  filter: contrast(90%);
+}
+
+.map {
+  height: 500px;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px black;
+}
+
+.label span {
+  filter: drop-shadow(1px 1px 1px black);
+}
+
+.tombol {
+  background-color: #b6895b;
   color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #b6895b;
 }
 
-.App-link {
-  color: #61dafb;
+.tombol:hover {
+  opacity: 80%;
+  transition: 0.8s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Footer {
+  background-color: #b6895b;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0;
+  /* height: 100px; */
+}
+
+.footer-top a {
+  color: white;
+  margin: 0 3px;
+  font-size: 23px;
+}
+
+.cipta {
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: yellow !important;
 }
