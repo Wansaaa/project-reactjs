@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-/* body {
-  min-height: 10000px;
-} */
-
 .navbar {
   background-color: rgba(1, 1, 1, 0.7);
   border-bottom: 1px solid #ffc107;
@@ -24,7 +20,7 @@
 }
 
 .title {
-  font-size: 4rem;
+  font-size: 1.5rem;
   font-weight: 800;
   text-shadow: 2px 2px 1px black;
   letter-spacing: 4px;
@@ -115,4 +111,11 @@
 
 .footer-bottom a:hover {
   color: yellow !important;
+}
+
+/* DEKSTOP VERSION */
+@media (min-width: 992px) {
+  .title {
+    font-size: 3.5rem;
+  }
 }
