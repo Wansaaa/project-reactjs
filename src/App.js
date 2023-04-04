@@ -4,6 +4,7 @@ import Intro from './components/Intro';
 import SistemInformasi from './components/SistemInformasi';
 import Akuntansi from './components/Akuntansi';
 import Contact from './components/Contact';
+import Games from './components/Games';
 import Footer from './components/Footer';
 
 function App() {
@@ -15,6 +16,12 @@ function App() {
         <Intro />
       </div>
       {/* End Intro */}
+
+      {/* Games */}
+      <div className="Games">
+        <Games />
+      </div>
+      {/* End Games */}
 
       {/* Sistem Informasi */}
       <div className="SistemInformasi">

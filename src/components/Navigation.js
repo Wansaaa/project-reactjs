@@ -8,7 +8,7 @@ function BasicExample() {
     <div>
       <Navbar className="shadow-sm navbar navbar-dark fixed-top" expand="lg">
         <Container>
-          <Navbar.Brand href="#home" className="text-center fs-3 nav fw-bold fst-italic my-1">
+          <Navbar.Brand className="text-center fs-3 nav fw-bold fst-italic my-1">
             LIBRARY<span className="text-warning">IBIKOSGORO</span>.
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -17,13 +17,16 @@ function BasicExample() {
               <Nav.Link href="#home" className="me-3 active">
                 Home
               </Nav.Link>
-              <Nav.Link href="#contact" className="me-3">
-                My Contact
+              <Nav.Link href="#games" className="me-3">
+                Games
               </Nav.Link>
-              <NavDropdown title="Genre" id="basic-nav-dropdown" align="end" className="me-3" menuVariant="dark">
+              <NavDropdown title="Jurusan" id="basic-nav-dropdown" align="end" className="me-3" menuVariant="dark">
                 <NavDropdown.Item href="#sistem-informasi">Sistem Informasi</NavDropdown.Item>
                 <NavDropdown.Item href="#akuntansi">Akuntansi</NavDropdown.Item>
               </NavDropdown>
+              <Nav.Link href="#contact" className="me-3">
+                My Contact
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

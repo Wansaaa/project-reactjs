@@ -16,7 +16,7 @@
   height: 100vh;
   background: url('assets/images/bg/bg.jpg');
   background-size: cover;
-  background-position: 25px;
+  background-repeat: no-repeat;
 }
 
 .title {
@@ -43,12 +43,9 @@
 
 .si,
 .akuntansi,
+.games,
 .contact {
   text-shadow: 2px 2px 1px black;
-}
-
-.movieImages {
-  width: 100%;
 }
 
 .Akuntansi {
@@ -62,6 +59,30 @@
   background: url('assets/images/bg/contact.jpg');
   background-size: cover;
   filter: contrast(90%);
+}
+
+.Games {
+  height: auto;
+  background: url('assets/images/bg/games.jpg');
+  background-size: cover;
+}
+
+.card {
+  height: 100% !important;
+}
+
+.card:hover {
+  transform: scale(103%);
+  transition: 0.8s ease-in-out;
+}
+
+.link-games a {
+  text-decoration: none;
+}
+
+.card-img {
+  overflow: hidden;
+  height: 300px !important;
 }
 
 .map {
@@ -115,7 +136,15 @@
 
 /* DEKSTOP VERSION */
 @media (min-width: 992px) {
+  .myBg {
+    background-position: 25px;
+  }
+
   .title {
     font-size: 3.5rem;
+  }
+
+  .card-img {
+    height: 400px !important;
   }
 }

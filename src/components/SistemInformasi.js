@@ -14,7 +14,7 @@ const SistemInformasi = () => {
         <Row className="justify-content-center">
           <Col md={4} className="mb-4">
             <Card className="text-white p-1">
-              <div className="bg-dark">
+              <div className="bg-dark card">
                 <Card.Img src={test} alt="Card image" />
                 <Card.Title className="text-center fs-3 my-2">Card title</Card.Title>
                 <Card.Body>
@@ -26,7 +26,7 @@ const SistemInformasi = () => {
           </Col>
           <Col md={4} className="mb-4">
             <Card className="text-white p-1">
-              <div className="bg-dark">
+              <div className="bg-dark card">
                 <Card.Img src={test} alt="Card image" />
                 <Card.Title className="text-center fs-3 my-2">Card title</Card.Title>
                 <Card.Body>
@@ -38,7 +38,7 @@ const SistemInformasi = () => {
           </Col>
           <Col md={4} className="mb-4">
             <Card className="text-white p-1">
-              <div className="bg-dark">
+              <div className="bg-dark card">
                 <Card.Img src={test} alt="Card image" />
                 <Card.Title className="text-center fs-3 my-2">Card title</Card.Title>
                 <Card.Body>
@@ -50,7 +50,7 @@ const SistemInformasi = () => {
           </Col>
           <Col md={4} className="mb-4">
             <Card className="text-white p-1">
-              <div className="bg-dark">
+              <div className="bg-dark card">
                 <Card.Img src={test} alt="Card image" />
                 <Card.Title className="text-center fs-3 my-2">Card title</Card.Title>
                 <Card.Body>
@@ -62,7 +62,7 @@ const SistemInformasi = () => {
           </Col>
           <Col md={4} className="mb-4">
             <Card className="text-white p-1">
-              <div className="bg-dark">
+              <div className="bg-dark card">
                 <Card.Img src={test} alt="Card image" />
                 <Card.Title className="text-center fs-3 my-2">Card title</Card.Title>
                 <Card.Body>
