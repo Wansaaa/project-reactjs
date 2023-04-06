@@ -14,44 +14,57 @@
 
 .myBG {
   height: 100vh;
-  background: url('assets/images/bg/bg.jpg');
+  background: url('assets/images/bg/bg1.jpeg');
+  background-position: -100px 0;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 800;
   text-shadow: 2px 2px 1px black;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
 }
 
-.SistemInformasi {
+.AdminstrasiBisnis {
   height: auto;
-  background: url('assets/images/bg/computer.jpg');
+  background: url('assets/images/bg/ab.jpeg');
   background-size: cover;
+  background-position: 0px;
+  background-repeat: no-repeat;
 }
 
 .hr {
   margin: 15px auto 35px;
   width: 200px;
-  border-top-width: 3px;
+  border-top-width: 5px;
   border-color: white;
   opacity: 1;
-  box-shadow: 1px 1px 10px black;
+  box-shadow: 2px 2px 1px black;
 }
 
-.si,
-.akuntansi,
+.ab,
+.komunikasi,
+.ti,
 .games,
 .contact {
   text-shadow: 2px 2px 1px black;
+  text-transform: uppercase;
 }
 
-.Akuntansi {
+.Komunikasi {
   height: auto;
-  background: url('assets/images/bg/calculator.jpg');
+  background: url('assets/images/bg/komunikasi.jpeg');
   background-size: cover;
+  background-position: 0;
+}
+
+.TeknologiInformasi {
+  height: auto;
+  background: url('assets/images/bg/ti.jpeg');
+  background-size: cover;
+  background-position: 0;
 }
 
 .Contact {
@@ -69,10 +82,15 @@
 
 .card {
   height: 100% !important;
+  overflow: hidden;
 }
 
 .card:hover {
-  transform: scale(103%);
+  background-color: tomato;
+}
+
+.card:hover .card-img {
+  transform: scale(105%);
   transition: 0.8s ease-in-out;
 }
 
@@ -82,7 +100,7 @@
 
 .card-img {
   overflow: hidden;
-  height: 300px !important;
+  height: 350px !important;
 }
 
 .map {
@@ -113,10 +131,14 @@
 }
 
 .Footer {
-  background-color: #b6895b;
+  /* background-color: #b6895b; */
+  background: url('assets/images/bg/footer.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: auto;
   text-align: center;
   padding: 50px 0;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
   /* height: 100px; */
 }
 
@@ -124,6 +146,7 @@
   color: white;
   margin: 0 3px;
   font-size: 23px;
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.8));
 }
 
 .cipta {
@@ -136,12 +159,21 @@
 
 /* DEKSTOP VERSION */
 @media (min-width: 992px) {
-  .myBg {
-    background-position: 25px;
+  .myBG {
+    background-position: 0 -850px;
   }
 
   .title {
     font-size: 3.5rem;
+    text-shadow: 3px 3px 1px black;
+  }
+
+  .ab,
+  .komunikasi,
+  .ti,
+  .games,
+  .contact {
+    text-shadow: 2px 2px 1px black;
   }
 
   .card-img {

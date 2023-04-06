@@ -2,8 +2,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Intro = () => {
   return (
-    <div className="d-flex justify-content-end align-items-end h-50">
-      <Container className="text-white text-center d-flex justify-content-center align-items-center">
+    <div className="d-flex justify-content-end align-items-center h-100">
+      <Container className="text-white d-flex justify-content-end text-end">
         <Row>
           <Col>
             <h1 className="title">

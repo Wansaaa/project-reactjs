@@ -1,8 +1,9 @@
 import './App.css';
 import Navigation from './components/Navigation';
 import Intro from './components/Intro';
-import SistemInformasi from './components/SistemInformasi';
-import Akuntansi from './components/Akuntansi';
+import AdminstrasiBisnis from './components/AdministrasiBisnis';
+import Komunikasi from './components/Komunikasi';
+import TeknologiInformasi from './components/TeknologiInformasi';
 import Contact from './components/Contact';
 import Games from './components/Games';
 import Footer from './components/Footer';
@@ -17,29 +18,35 @@ function App() {
       </div>
       {/* End Intro */}
 
-      {/* Games */}
-      <div className="Games">
-        <Games />
+      {/* Administrasi Bisnis */}
+      <div className="AdminstrasiBisnis">
+        <AdminstrasiBisnis />
       </div>
-      {/* End Games */}
+      {/* End Administrasi Bisnis */}
 
-      {/* Sistem Informasi */}
-      <div className="SistemInformasi">
-        <SistemInformasi />
+      {/* Komunikasi */}
+      <div className="Komunikasi">
+        <Komunikasi />
       </div>
-      {/* End Sistem Informasi */}
+      {/* End Komunikasi */}
 
-      {/* Akuntansi */}
-      <div className="Akuntansi">
-        <Akuntansi />
+      {/* TeknologiInformasi */}
+      <div className="TeknologiInformasi">
+        <TeknologiInformasi />
       </div>
-      {/* End Akuntansi */}
+      {/* End TeknologiInformasi */}
 
       {/* Contact */}
       <div className="Contact">
         <Contact />
       </div>
       {/* End Contact */}
+
+      {/* Games */}
+      <div className="Games">
+        <Games />
+      </div>
+      {/* End Games */}
 
       {/* Footer */}
       <div className="Footer">

@@ -17,15 +17,16 @@ function BasicExample() {
               <Nav.Link href="#home" className="me-3 active">
                 Home
               </Nav.Link>
-              <Nav.Link href="#games" className="me-3">
-                Games
-              </Nav.Link>
               <NavDropdown title="Jurusan" id="basic-nav-dropdown" align="end" className="me-3" menuVariant="dark">
-                <NavDropdown.Item href="#sistem-informasi">Sistem Informasi</NavDropdown.Item>
-                <NavDropdown.Item href="#akuntansi">Akuntansi</NavDropdown.Item>
+                <NavDropdown.Item href="#administrasi-bisnis">Administrasi Bisnis</NavDropdown.Item>
+                <NavDropdown.Item href="#komunikasi">Komunikasi</NavDropdown.Item>
+                <NavDropdown.Item href="#teknologi-informasi">Teknologi Informasi</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#contact" className="me-3">
                 My Contact
+              </Nav.Link>
+              <Nav.Link href="#games" className="me-3">
+                Games
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

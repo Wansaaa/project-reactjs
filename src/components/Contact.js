@@ -10,7 +10,7 @@ const Contact = () => {
       <Container className="pb-5 w-100" id="contact">
         <Row className="text-center">
           <Col className="text-center">
-            <h1 className="text-white mt-4 contact">Contact Us</h1>
+            <h1 className="text-white mt-5 contact">Contact Us</h1>
             <hr className="hr"></hr>
           </Col>
         </Row>
