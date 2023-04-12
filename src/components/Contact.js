@@ -14,18 +14,20 @@ const Contact = () => {
             <hr className="hr"></hr>
           </Col>
         </Row>
-        <Row className="d-flex align-items-center">
+        <Row className="d-flex align-items-center mb-5">
           <Col md={7} className="map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.4618287118537!2d106.83086741482015!3d-6.334168595416071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f28324b8d573%3A0x64d2165a56a878dc!2sThe%20Institute%20of%20Business%20%26%20Information%20Kosgoro%201957!5e0!3m2!1sen!2sid!4v1680543257912!5m2!1sen!2sid"
-              width="100%"
-              height="100%"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <div className="h-100 w-100">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.461869673547!2d106.83086205044403!3d-6.334163263717216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f28324b8d573%3A0x64d2165a56a878dc!2sThe%20Institute%20of%20Business%20%26%20Information%20Kosgoro%201957!5e0!3m2!1sen!2sid!4v1681277593648!5m2!1sen!2sid"
+                width="100%"
+                height="100%"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <p className="text-light fs-4 fw-semibold text-center">Jalan Moch. Kahfi II, RT.1/RW.5, Srengseng Sawah, South Jakarta City, Jakarta. Gedung B Lantai 3.</p>
           </Col>
-          <Col md={5} className="text-white my-3">
+          <Col md={5} className="text-white">
             <form>
               <div className="mb-3">
                 <label for="npm" className="form-label text-uppercase label">

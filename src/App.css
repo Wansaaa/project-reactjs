@@ -105,6 +105,11 @@
 
 .map {
   height: 500px;
+  margin: 120px 0;
+}
+
+.map p {
+  text-shadow: 2px 2px 2px black;
 }
 
 .label {
@@ -178,5 +183,10 @@
 
   .card-img {
     height: 400px !important;
+  }
+
+  .map {
+    height: 500px;
+    margin: 0;
   }
 }
